@@ -1,6 +1,7 @@
 import React from 'react';
 import CustomerCard from "./components/Customers";
 import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
 import transactions from "./models/transactions.json";
 import './App.css';
 
@@ -12,7 +13,7 @@ class App extends React.Component {
   render() {
     return (
       <Wrapper>
-        <h1 className="title">Rewards Program</h1>
+        <Title>Rewards Program</Title>
         {this.state.transactions.map(customer => (
           <CustomerCard
             id={customer.id}
