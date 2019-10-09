@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/rewards-solution/static/css/main.d17e6ef3.chunk.css",
+    "main.js": "/rewards-solution/static/js/main.e77dbcb5.chunk.js",
+    "main.js.map": "/rewards-solution/static/js/main.e77dbcb5.chunk.js.map",
+    "runtime-main.js": "/rewards-solution/static/js/runtime-main.3c74590d.js",
+    "runtime-main.js.map": "/rewards-solution/static/js/runtime-main.3c74590d.js.map",
+    "static/js/2.9696a624.chunk.js": "/rewards-solution/static/js/2.9696a624.chunk.js",
+    "static/js/2.9696a624.chunk.js.map": "/rewards-solution/static/js/2.9696a624.chunk.js.map",
+    "index.html": "/rewards-solution/index.html",
+    "precache-manifest.ba93801f1904a1eee80a5ec52721a6d4.js": "/rewards-solution/precache-manifest.ba93801f1904a1eee80a5ec52721a6d4.js",
+    "service-worker.js": "/rewards-solution/service-worker.js",
+    "static/css/main.d17e6ef3.chunk.css.map": "/rewards-solution/static/css/main.d17e6ef3.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c74590d.js",
+    "static/js/2.9696a624.chunk.js",
+    "static/css/main.d17e6ef3.chunk.css",
+    "static/js/main.e77dbcb5.chunk.js"
+  ]
+}
