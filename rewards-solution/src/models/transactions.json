@@ -2,11 +2,21 @@
     {
         "id": 1,
         "name": "Michael Beck",
-        "transaction": 20
+        "transaction": 80
     },
     {
         "id": 2,
         "name": "Jeremiah Jones",
-        "transaction": 80
+        "transaction": 20
+    },
+    {
+        "id": 3,
+        "name": "Alex White",
+        "transaction": 153
+    },
+    {
+        "id": 4,
+        "name": "Max Axwell",
+        "transaction": 120
     }
 ]
