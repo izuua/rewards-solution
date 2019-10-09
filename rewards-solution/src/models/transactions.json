@@ -7,7 +7,7 @@
     {
         "id": 2,
         "name": "Jeremiah Jones",
-        "transaction": 20
+        "transaction": 100
     },
     {
         "id": 3,
@@ -16,7 +16,17 @@
     },
     {
         "id": 4,
-        "name": "Max Axwell",
+        "name": "Max Atwell",
+        "transaction": 50
+    },
+    {
+        "id": 5,
+        "name": "Jean Grey",
+        "transaction": 20
+    },
+    {
+        "id": 6,
+        "name": "Jeff Hoffman",
         "transaction": 120
     }
 ]

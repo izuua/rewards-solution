@@ -12,6 +12,9 @@ function CustomerCard(props) {
                     <li>
                         Transaction Amount: ${props.transaction}
                     </li>
+                    <li>
+                        Rewards: {props.rewards} points
+                    </li>
                 </ul>
             </div>
         </div>
