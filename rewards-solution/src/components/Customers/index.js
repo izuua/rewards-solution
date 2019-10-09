@@ -3,7 +3,9 @@ import "./style.css";
 
 function CustomerCard(props) {
     return (
-        <h3>Customer</h3>
+        <div className="card">
+            
+        </div>
     )
 }
 

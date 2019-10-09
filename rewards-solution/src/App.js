@@ -14,12 +14,12 @@ class App extends React.Component {
       <Wrapper>
         <h1 className="title">Rewards Program</h1>
         {this.state.transactions.map(customer => (
-          <CustomerCard>
+          <CustomerCard
             id={customer.id}
             key={customer.id}
             name={customer.name}
             transaction={customer.transaction}
-          </CustomerCard>
+            />
         ))}
       </Wrapper>
     )
