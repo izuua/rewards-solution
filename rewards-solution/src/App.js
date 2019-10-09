@@ -11,7 +11,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <h1 className="title">Rewards Program</h1>
+      <Wrapper>
+        <h1 className="title">Rewards Program</h1>
+        <CustomerCard></CustomerCard>
+      </Wrapper>
     )
   }
 }
