@@ -1,5 +1,7 @@
 import React from 'react';
-import transactions from "./models/transactions.json"
+import CustomerCard from "./components/Customers";
+import Wrapper from "./components/Wrapper";
+import transactions from "./models/transactions.json";
 import './App.css';
 
 class App extends React.Component {
@@ -9,7 +11,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <h1>Hello World!</h1>
+      <h1 className="title">Rewards Program</h1>
     )
   }
 }
