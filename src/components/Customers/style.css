@@ -1,12 +1,25 @@
 .card {
-    background: #444;
+    background: #383838;
     color: #ffffff;
     border-radius: 2px;
-    height: 90px;
-    margin: 1rem;
+    height: 130px;
+    margin: 25px;
     position: relative;
     width: 325px;
     box-shadow: 0 3px 6px #000000, 0 3px 6px #000000;
     text-align: left;
-    vertical-align: middle;
 }
+
+.card > .content {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.card > .content > ul {
+    list-style-type: none;
+}
+
+.card:hover {
+    background: #484848;
+}
+  
