@@ -11,17 +11,17 @@ class App extends Component {
   }
 
   componentDidMount() {
-    // loops over each transactions to look at the price and adds a rewards bonus
+    // loops over each transactions to look at the price and adds reward points
     transactions.forEach(function (element) {
       if (element.transaction <= 50) {
         // if $50 or under, no points are added
-        element.bonus = 0;
+        element.rewards = 0;
       } else if (element.transaction > 50 && element.transaction <= 100) {
         // if over $50, add 1 point for ever dollar after 50
-        element.bonus = (element.transaction - 50) * 1;
+        element.rewards = (element.transaction - 50) * 1;
       } else if (element.transaction > 100) {
         // if over $100, add 2 points for every dollar after 100 and 1 point for every dollar over 50 up to 100
-        element.bonus = (element.transaction - 100) * 2 + 50
+        element.rewards = (element.transaction - 100) * 2 + 50
       }
     })
     // update the state with the new transactions object
@@ -38,7 +38,7 @@ class App extends Component {
             key={customer.id}
             name={customer.name}
             transaction={customer.transaction}
-            rewards={customer.bonus}
+            rewards={customer.rewards}
           />
         ))}
       </Wrapper>
