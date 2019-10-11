@@ -11,16 +11,21 @@ class App extends Component {
   }
 
   componentDidMount() {
-    transactions.forEach(function(element) {
+    // loops over each transactions to look at the price and adds a rewards bonus
+    transactions.forEach(function (element) {
       if (element.transaction <= 50) {
+        // if $50 or under, no points are added
         element.bonus = 0;
       } else if (element.transaction > 50 && element.transaction <= 100) {
-        element.bonus = (element.transaction-50)*1;
+        // if over $50, add 1 point for ever dollar after 50
+        element.bonus = (element.transaction - 50) * 1;
       } else if (element.transaction > 100) {
-        element.bonus = (element.transaction-100)*2 + 50
+        // if over $100, add 2 points for every dollar after 100 and 1 point for every dollar over 50 up to 100
+        element.bonus = (element.transaction - 100) * 2 + 50
       }
     })
-    this.setState({transactions})
+    // update the state with the new transactions object
+    this.setState({ transactions })
   }
 
   render() {
@@ -34,12 +39,11 @@ class App extends Component {
             name={customer.name}
             transaction={customer.transaction}
             rewards={customer.bonus}
-            />
+          />
         ))}
       </Wrapper>
     )
   }
 }
-
 
 export default App;
